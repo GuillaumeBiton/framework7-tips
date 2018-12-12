@@ -12,9 +12,9 @@ Framework7 v4 features demonstrate in component pages.
 
 home.f7.html
 
-Cards-expandable
-Responsive layout
-CSS Variables
+* Cards-expandable
+* Responsive layout
+* CSS Variables
 
 ## Project Structure
 
