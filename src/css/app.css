@@ -1,0 +1,11 @@
+/* Your app styles here */
+:root {
+    --f7-theme-color: #fff;
+    --f7-theme-color-rgb: 255, 255, 255;
+    --f7-theme-color-shade: #ebebeb;
+    --f7-theme-color-tint: #ffffff;
+    --f7-navbar-bg-color: #fff;
+    --f7-page-bg-color: #fff;
+    --f7-bars-border-color: transparent;
+    --f7-navbar-subtitle-font-size: 14px;
+}
