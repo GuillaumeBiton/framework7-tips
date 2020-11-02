@@ -8,7 +8,7 @@
             after={after}
             subtitle={subtitle}
             text={text} >
-            <img alt="img" slot="media" src={img} width="80" />
+            <img alt="img" slot="media" src={img} style="background: white; width:80px; height:80px; object-fit: scale-down;"/>
         </ListItem>
         {/each}
     </List>
@@ -23,7 +23,7 @@
             title: "Welcome to iPhone",
             subtitle: "Get to know your iPhone",
             text: "8 tips",
-            img: "https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/content-link-5g-settings_2x.png"
+            img: "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios14-iphone-11pro-widgets-home-screen.jpg"
         },
         {
             link: "#",
