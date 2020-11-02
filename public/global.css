@@ -2,6 +2,7 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	background-color: black;
 }
 
 body {
@@ -60,4 +61,29 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+/* custom */
+.demo-swiper {
+	width: 100%;
+	height: 100%;
+  }
+  .demo-swiper .swiper-slide {
+	font-size: 25px;
+	font-weight: 300;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+.demo-swiper .swiper-pagination-bullet {
+	background: var(--swiper-pagination-color, white);
 }

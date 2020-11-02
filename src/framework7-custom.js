@@ -39,7 +39,7 @@ import Framework7, { Device, Request, Utils } from 'framework7/framework7-lite.e
 // import Searchbar from 'framework7/components/searchbar/searchbar';
 // import Messages from 'framework7/components/messages/messages';
 // import Messagebar from 'framework7/components/messagebar/messagebar';
-// import Swiper from 'framework7/components/swiper/swiper';
+import Swiper from 'framework7/components/swiper/swiper';
 // import PhotoBrowser from 'framework7/components/photo-browser/photo-browser';
 // import Notification from 'framework7/components/notification/notification';
 // import Autocomplete from 'framework7/components/autocomplete/autocomplete';
@@ -94,7 +94,7 @@ Framework7.use([
   // Searchbar,
   // Messages,
   // Messagebar,
-  // Swiper,
+  Swiper,
   // PhotoBrowser,
   // Notification,
   // Autocomplete,
