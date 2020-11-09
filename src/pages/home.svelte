@@ -26,20 +26,22 @@
             img: "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios14-iphone-11pro-widgets-home-screen.jpg"
         },
         {
-            link: "#",
-            title: "Don't Stop Me Now",
-            after: "22",
-            subtitle: "Queen",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.",
-            img: "https://cdn.framework7.io/placeholder/people-160x160-2.jpg"
+            title: "Indispensables",
+            subtitle: "Des fonctionnalités à décourvrir absoluement et que vous adorerez",
+            text: "7 astuces",
+            img: "https://www.apple.com/fr/ios/ios-14/images/overview/maps/curated_city_guides__dapxuahzztua_medium_2x.jpg"
         },
         {
-            link: "#",
-            title: "Billie Jean",
-            after: "16",
-            subtitle: "Mickael Jackson",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.",
-            img: "https://cdn.framework7.io/placeholder/people-160x160-3.jpg"
+            title: "Sélection Genius",
+            subtitle: "Les morceaux favoris de nos experts",
+            text: "6 astuces",
+            img: "https://www.apple.com/v/ios/ios-14/b/images/overview/translate/enlarged_view__bgzf09g02u5e_medium_2x.jpg"
+        },
+        {
+            title: "Bienvenue sur l'Apple Watch",
+            subtitle: "Faites connaissance avec votre montre",
+            text: "7 astuces",
+            img: "https://www.apple.com/fr/ios/ios-14/images/overview/carplay/car_keys_wallet__gnyts6h9zf6u_medium_2x.jpg"
         }
     ]
 </script>
