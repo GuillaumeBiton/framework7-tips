@@ -87,3 +87,14 @@ button:focus {
 .demo-swiper .swiper-pagination-bullet {
 	background: var(--swiper-pagination-color, white);
 }
+
+.collections-list {
+    --f7-list-bg-color: transparent;
+	--f7-list-item-title-font-size: 21px;
+}
+@media (min-width: 768px) {
+	.collections-list ul {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

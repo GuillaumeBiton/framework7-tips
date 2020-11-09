@@ -1,6 +1,6 @@
 <Page name="home">
     <Navbar large title="Collections"></Navbar>
-    <List mediaList>
+    <List class="collections-list" mediaList noHairlines>
         {#each collections as { link, title, after, subtitle, text, img }, i}
         <ListItem
             link={link}
