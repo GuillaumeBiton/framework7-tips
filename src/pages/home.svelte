@@ -1,5 +1,12 @@
 <Page name="home">
     <Navbar large title="Collections"></Navbar>
+    <Card class="demo-card-header-pic">
+        <CardHeader
+          class="no-border"
+          valign="bottom"
+          style="background-image: url(https://cdn.mgig.fr/2019/06/mg-95319b11-16c8-496b-b6fb.png)"
+        >iOS 14</CardHeader>
+    </Card>
     <List class="collections-list" mediaList noHairlines>
         {#each collections as { link, title, after, subtitle, text, img }, i}
         <ListItem
@@ -15,7 +22,7 @@
 </Page>
 
 <script>
-    import { Page, Navbar, List, ListItem } from 'framework7-svelte';
+    import { Page, Navbar, List, ListItem, Card, CardContent, CardHeader } from 'framework7-svelte';
 
     let collections = [
         {

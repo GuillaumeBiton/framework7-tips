@@ -107,3 +107,11 @@ button:focus {
         grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }
+
+/* Cards Demo */
+.demo-card-header-pic .card-header {
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+  }

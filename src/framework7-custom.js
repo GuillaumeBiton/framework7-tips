@@ -18,7 +18,7 @@ import Framework7, { Device, Request, Utils } from 'framework7/framework7-lite.e
 // import Timeline from 'framework7/components/timeline/timeline';
 // import Tabs from 'framework7/components/tabs/tabs';
 // import Panel from 'framework7/components/panel/panel';
-// import Card from 'framework7/components/card/card';
+import Card from 'framework7/components/card/card';
 // import Chip from 'framework7/components/chip/chip';
 // import Form from 'framework7/components/form/form';
 // import Input from 'framework7/components/input/input';
@@ -73,7 +73,7 @@ Framework7.use([
   // Timeline,
   // Tabs,
   // Panel,
-  // Card,
+  Card,
   // Chip,
   // Form,
   // Input,
