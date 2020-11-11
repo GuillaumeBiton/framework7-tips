@@ -14,7 +14,7 @@
 
   // Framework7 Parameters
   let f7params = {
-    name: 'stock', // App name
+    name: 'tips', // App name
     theme: 'auto', // Automatic theme detection
     autoDarkTheme: true, // Automatic Dark Theme
     routes: routes, // App routes
