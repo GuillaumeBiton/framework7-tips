@@ -1,13 +1,15 @@
-import NotFoundPage from './pages/not-found.f7.html';
-import HomePage from './pages/home.f7.html'
+import HomePage from './pages/home.svelte';
+import CollectionPage from './pages/collection.svelte';
 
-export default [
-  {
-    path: '/',
-    component: HomePage,
-  },
-  {
-    path: '(.*)',
-    component: NotFoundPage,
-  },
+var routes = [
+    {
+        path: '/',
+        component: HomePage,
+    },
+    {
+        path: '/collection/:name',
+        component: CollectionPage,
+    }
 ];
+
+export default routes;
