@@ -1,10 +1,13 @@
 <Page name="home">
     <Navbar large title="Collections"></Navbar>
-    <div style="padding-left: calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-left));">
-    <Card style="margin-left: 0; margin-right: calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-left));;background: url(https://cdn.mgig.fr/2019/06/mg-95319b11-16c8-496b-b6fb.png) no-repeat center top; background-size: cover; height: 400px">
+    <Card class="collections-highlight" style="
+        background: url(https://cdn.mgig.fr/2019/06/mg-95319b11-16c8-496b-b6fb.png) no-repeat center top; 
+	    background-size: cover; 
+        height: 55vw;
+        max-height: 400px;"
+    >
         <p style="font-size: 25px; color: white; padding: 20px">iOS 14</p>
     </Card>
-</div>
     <List class="collections-list" mediaList noHairlines>
         {#each collections as { link, title, after, subtitle, text, img }, i}
         <ListItem
@@ -12,7 +15,7 @@
             title={title}
             after={after}
             subtitle={subtitle}
-            text={text} >
+            text={text}>
             <img alt="img" slot="media" src={img} style="background: white; width:80px; height:80px; object-fit: scale-down;"/>
         </ListItem>
         {/each}

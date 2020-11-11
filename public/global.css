@@ -1,3 +1,7 @@
+:root {
+	--f7-card-margin-horizontal: 50px;
+}
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -87,31 +91,3 @@ button:focus {
 .demo-swiper .swiper-pagination-bullet {
 	background: var(--swiper-pagination-color, white);
 }
-
-.collections-list {
-    --f7-list-bg-color: transparent;
-	--f7-list-item-title-font-size: 21px;
-}
-.collections-list img {
-	border-radius: 8px;
-}
-@media (min-width: 768px) {
-	.collections-list ul {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-@media (min-width: 1024px) {
-	.collections-list ul {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-	}
-}
-
-/* Cards Demo */
-.demo-card-header-pic .card-header {
-	height: 40vh;
-	background-size: cover;
-	background-position: center;
-	color: #fff;
-  }

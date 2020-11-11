@@ -7,6 +7,9 @@ import Framework7Svelte from 'framework7-svelte';
 // Import Framework7 Styles
 import './framework7-custom.less';
 
+// Import custom App Styles
+import './app.less';
+
 // Init F7 Svelte Plugin
 Framework7.use(Framework7Svelte)
 
