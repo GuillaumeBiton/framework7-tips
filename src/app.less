@@ -13,7 +13,29 @@ html.theme-dark {
 .collections-list {
     --f7-list-bg-color: transparent;
 	--f7-list-item-title-font-size: 21px;
+	.card {
+		color: white;
+	}
 }
+	.card-header::after {
+		background-color: transparent;
+	}
+	.card-content {
+		font-size: 20vw;
+		font-weight: 300;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+		}
 .collections-list img {
 	border-radius: 8px;
 }
@@ -31,4 +53,28 @@ html.theme-dark {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
+}
+/* custom */
+.demo-swiper {
+	width: 100%;
+	height: 100%;
+  }
+  .demo-swiper .swiper-slide {
+	font-size: 25px;
+	font-weight: 300;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+.demo-swiper .swiper-pagination-bullet {
+	background: var(--swiper-pagination-color, white);
 }

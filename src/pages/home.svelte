@@ -6,7 +6,13 @@
         height: 55vw;
         max-height: 400px;"
     >
-        <p style="font-size: 25px; color: white; padding: 20px">iOS 14</p>
+        <CardHeader>
+            Nouveautés
+            <small style="opacity:0.7">8 astuces</small>
+        </CardHeader>
+        <CardContent>
+            14
+        </CardContent>
     </Card>
     <List class="collections-list" mediaList noHairlines>
         {#each collections as { link, title, after, subtitle, text, img }, i}
