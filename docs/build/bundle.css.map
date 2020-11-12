@@ -1,8 +1,12 @@
 {
   "version": 3,
   "file": "bundle.css",
-  "sources": [],
-  "sourcesContent": [],
+  "sources": [
+    "collection.svelte"
+  ],
+  "sourcesContent": [
+    "<Page name=\"collection\">\r\n    <Navbar backLink title={name}></Navbar>\r\n    <Swiper class=\"demo-swiper\" pagination params={{\r\n        pagination: {\r\n          hideOnClick: true,\r\n        }\r\n      }}>\r\n      {#each collection as { title,src }}\r\n        <SwiperSlide>\r\n          <Block style=\"height: 100vh; width: 100%\">\r\n          <Row style=\"height: 70%; width: 100%\"><Col class=\"col-center-content\" style=\"height: 100%; width:100%\"><img alt=\"img\" src={src} style=\"width: 100%; height: 100%; object-fit: none\"></Col></Row>\r\n          <Row><Col class=\"col-center-content\">{title}</Col></Row>\r\n          </Block>\r\n        </SwiperSlide>\r\n      {/each}\r\n    </Swiper>\r\n</Page>\r\n\r\n<style>\r\n:global(.col-center-content) {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n  }\r\n</style>\r\n\r\n<script>\r\n    import { Page, Navbar, Swiper, SwiperSlide, Block, Row, Col } from 'framework7-svelte';\r\n    \r\n    export let name;\r\n\r\n    let collection = [\r\n      {\r\n        title: \"Add widgets to Today View\",\r\n        src: \"https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios14-iphone-11pro-widgets-today-view.jpg\"\r\n      },\r\n      {\r\n        title: \"slide 2\"\r\n      },\r\n      {\r\n        title: \"slide 3\"\r\n      },\r\n    ];\r\n</script>"
+  ],
   "names": [],
-  "mappings": ""
+  "mappings": "AAmBQ,mBAAmB,AAAE,CAAC,AAC1B,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,AACzB,CAAC"
 }
